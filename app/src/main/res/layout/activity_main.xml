@@ -5,10 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.highleveldev.MyTextView
-        android:id="@+id/tvTouche"
+    <com.highleveldev.MyRelativeLayout
+        android:layout_centerInParent="true"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="安卓触摸事件传递机制" />
+        android:layout_height="wrap_content">
+
+        <com.highleveldev.MyTextView
+            android:id="@+id/tvTouche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="安卓触摸事件传递机制"
+            android:padding="10dp"
+            android:gravity="center"
+            android:background="@drawable/svg_btn_bg"/>
+    </com.highleveldev.MyRelativeLayout>
+
 
 </RelativeLayout>
