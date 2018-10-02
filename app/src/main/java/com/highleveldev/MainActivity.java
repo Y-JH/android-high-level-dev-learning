@@ -59,6 +59,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         return super.dispatchTouchEvent(ev);
     }
 
+
+
+
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         switch (event.getAction()){
